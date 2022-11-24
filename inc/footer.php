@@ -1,5 +1,5 @@
 <footer class="row">
-        <h1>End of Page</h1>
+        <h1>Zaid Ahmed</h1>
 </footer>
 </body>
 </html>
