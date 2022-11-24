@@ -1,5 +1,6 @@
 <?php 
-// lets add connection of local host
+// let's add connection of local host
+
 $sName = "localhost";
 $uName = "root";
 $pass = "";

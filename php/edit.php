@@ -14,7 +14,6 @@ if(isset($_POST['fname']) &&
     $old_pp = $_POST['old_pp'];
     $id = $_SESSION['id'];
 
-
 //    if conditions to ensure all the boxes are filled correctly.
     if (empty($fname)) {
         $em = "Full name is required";

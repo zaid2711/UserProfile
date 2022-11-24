@@ -31,7 +31,6 @@ if(isset($_POST['fname']) &&
 
       if (isset($_FILES['pp']['name']) AND !empty($_FILES['pp']['name'])) {
          
-         
          $img_name = $_FILES['pp']['name'];
          $tmp_name = $_FILES['pp']['tmp_name'];
          $error = $_FILES['pp']['error'];

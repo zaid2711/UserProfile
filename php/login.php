@@ -21,7 +21,6 @@ if(isset($_POST['uname']) &&
     	header("Location: ../login.php?error=$em&$data");
 	    exit;
     }else {
-
     	$sql = "SELECT * FROM Users WHERE username = ?";
     	$stmt = $conn->prepare($sql);
     	$stmt->execute([$uname]);

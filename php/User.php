@@ -11,6 +11,7 @@ function getUserById($id, $db){
     }else{
         return 0;
 }
+
 }
 ?>
 
