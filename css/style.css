@@ -1,0 +1,29 @@
+header{
+	background-color: aqua;
+}
+header > nav > div > a > img{
+	height: 83px;
+
+}
+.navbar-brand{
+	height: 83px;
+}
+img, svg {
+	vertical-align: middle;
+	height: 80px;
+}
+.w-450 {
+	width: 500px;
+}
+.vh-100 {
+	min-height: 100vh;
+}
+.w-350 {
+	width: 350px;
+}
+footer{
+	background-color: #0e0e0e;;
+	color: #fff;
+	text-align: center;
+	padding: 5%;
+}
