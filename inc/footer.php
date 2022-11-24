@@ -1,5 +1,5 @@
 <footer class="row">
-        <h1>Zaid</h1>
+        <h1>Made by Zaid Ahmed Mohammed</h1>
 </footer>
 </body>
 </html>
