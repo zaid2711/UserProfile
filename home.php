@@ -1,4 +1,4 @@
-<!-- Here we will add our header file. -->
+  <!-- Here we will add our header file. -->
 <?php require ('./inc/header.php'); ?>
 <?php
 session_start();
@@ -22,7 +22,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname'])) {
 <body>
     <?php if ($user){ ?>
     <div class="d-flex justify-content-center align-items-cent er vh-100">
-    	
+<!--    	let's add image, name and bio-->
     	<div class="shadow w-350 p-3 text-center">
     		<img src="upload/<?=$user['pp']?>"
     		     class="img-fluid rounded-circle">

@@ -15,6 +15,7 @@ if(isset($_POST['fname']) &&
     $id = $_SESSION['id'];
 
 
+//    if conditions to ensure all the boxes are filled correctly.
     if (empty($fname)) {
         $em = "Full name is required";
         header("Location: ../edit.php?error=$em");

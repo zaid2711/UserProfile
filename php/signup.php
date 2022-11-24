@@ -35,8 +35,10 @@ if(isset($_POST['fname']) &&
          $img_name = $_FILES['pp']['name'];
          $tmp_name = $_FILES['pp']['tmp_name'];
          $error = $_FILES['pp']['error'];
-         
-         if($error === 0){
+
+          //    if conditions to ensure all the boxes are filled correctly.
+
+          if($error === 0){
             $img_ex = pathinfo($img_name, PATHINFO_EXTENSION);
             $img_ex_to_lc = strtolower($img_ex);
 

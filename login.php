@@ -1,4 +1,4 @@
-<!-- Here we will add our header file. -->
+   <!-- Here we will add our header file. -->
 <?php require ('./inc/header.php'); ?>
 <!DOCTYPE html>
 <html>

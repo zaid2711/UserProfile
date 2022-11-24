@@ -10,7 +10,8 @@ if(isset($_POST['uname']) &&
     $pass = $_POST['pass'];
 
     $data = "uname=".$uname;
-    
+
+    //    if conditions to ensure all the boxes are filled correctly.
     if(empty($uname)){
     	$em = "User name is required";
     	header("Location: ../login.php?error=$em&$data");

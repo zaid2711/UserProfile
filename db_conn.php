@@ -1,10 +1,9 @@
 <?php 
-
+// lets add connection of local host
 $sName = "localhost";
 $uName = "root";
 $pass = "";
 $db_name = "auth_db";
-
 try {
     $conn = new PDO("mysql:host=$sName;dbname=$db_name", 
                     $uName, $pass);
